@@ -35,11 +35,6 @@ int main()
     {
       cin >> skill[i];
     }
-    // for (int i = 0; i < n; i++)
-    // {
-    //   cout << arr[i] << skill[i];
-    // }
-    // cout << "YO" << endl;
 
     if (zeroes >= ones)
     {
