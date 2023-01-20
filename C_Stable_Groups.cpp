@@ -10,10 +10,6 @@ using namespace std;
 
 int main()
 {
-    // int i;
-    // cin >> i;
-    // while (i--)
-    // {
     ll n, k, diff;
     cin >> n >> k >> diff;
     ll ans = 0;
@@ -31,8 +27,7 @@ int main()
         }
     }
     ans++;
-    // cout<<ans<<endl;
-    //for(auto x:a)cout<<x<<endl;
+    
     sort(a.begin(), a.end());
     for (int i = 0; i < a.size(); i++)
     {
@@ -59,5 +54,5 @@ int main()
     }
     cout << ans << endl;
 
-    //}
+    
 }
