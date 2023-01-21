@@ -41,7 +41,7 @@ int main()
             p=a[i]/diff-1;
         }
         
-        //cout << "p" << p << endl;
+      
         if (k >= p)
         {
             k -= p;
